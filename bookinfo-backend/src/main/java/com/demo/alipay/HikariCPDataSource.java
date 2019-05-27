@@ -8,9 +8,9 @@ import java.sql.SQLException;
 
 public class HikariCPDataSource {
 
-    private static final String DATABASE_URL = Utils.valueOr(System.getenv("DATABASE_URL"), "jdbc:mysql://rm-p2u21oov2y6xf35533o.mysql.rds.aliyuncs.com:3306/bookinfo");
-    private static final String USERNAME = Utils.valueOr(System.getenv("DATABASE_USERNAME"), "root");
-    private static final String PASSWORD = Utils.valueOr(System.getenv("DATABASE_PASSWORD"), "Ali_1234");
+    private static final String DATABASE_URL = Utils.valueOr(System.getenv("DATABASE_URL"), "");
+    private static final String USERNAME = Utils.valueOr(System.getenv("DATABASE_USERNAME"), "");
+    private static final String PASSWORD = Utils.valueOr(System.getenv("DATABASE_PASSWORD"), "");
 
     private static HikariConfig config = new HikariConfig();
     private static HikariDataSource ds;
