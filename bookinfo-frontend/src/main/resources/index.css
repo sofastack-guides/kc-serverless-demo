@@ -1,0 +1,156 @@
+body {
+    background: rgb(17, 141, 227) !important;
+    min-height: 100vh;
+}
+
+.button.is-primary {
+    background: rgb(17, 141, 227) !important;
+}
+
+.button.is-primary:hover {
+    background: rgb(15, 121, 191) !important;
+}
+
+.header-container {
+    padding: 10px;
+    margin-left: 0;
+
+    position: relative;
+    top: -18px;
+
+    cursor: pointer;
+}
+
+.header-container .title, .header-container .subtitle {
+    color: white;
+}
+
+.box {
+    margin-bottom: 10px !important;
+    min-height: 140px;
+}
+
+.media-content strong + small {
+    padding-left: 4px;
+}
+
+.page-index p.item-title {
+    margin-bottom: 6px;
+}
+
+.page-index .item-description {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+
+}
+
+.stars-root, .star-selector {
+    position: relative;
+    top: -1px;
+    margin-right: 10px;
+}
+
+.stars-root .stars-bg, .star-selector .stars-bg {
+    color: #DDD;
+}
+
+.stars-root .stars-fg, .star-selector .stars-fg {
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    color: #ffdd57;
+    left: 0;
+    top: 0;
+}
+
+.page-detail .image {
+    width: 200px;
+    padding-right: 6px;
+}
+
+.page-detail h1 {
+    margin-bottom: 0px;
+}
+
+.page-detail .tagline {
+    font-size: 24px;
+    opacity: .6;
+    margin-bottom: 12px;
+}
+
+.page-detail .book-desc {
+    line-height: 1.5;
+    white-space: pre-wrap;
+}
+
+.page-detail .name-and-rating {
+    display: flex;
+}
+
+.page-detail .name-and-rating input {
+    flex-grow: 0;
+    flex-basis: 350px;
+}
+
+.page-detail .name-and-rating .star-selector {
+    cursor: pointer;
+    position: relative;
+    top: -2px;
+    left: 16px;
+    font-size: 26px;
+}
+
+.page-detail .small-stars {
+    font-size: 12px;
+    position: relative;
+    top: 4px;
+    left: 6px;
+}
+
+.page-detail .stars-root, .page-detail .star-selector {
+    margin-right: 0 !important;
+}
+
+.page-detail .review-item {
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+.page-detail .review-item:last-of-type {
+    padding-bottom: 20px;
+}
+
+.page-detail .review-item p {
+    opacity: .6;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #E2E2E2;
+}
+
+.page-detail .review-item .line1 {
+    overflow: auto;
+    clear: both;
+}
+
+.page-detail .review-item .line1 > * {
+    float: left;
+}
+
+.review-date {
+    padding-left: 12px;
+    opacity: .5;
+    float: right !important;
+    font-size: 12px;
+    padding-top: 2px;
+}
+
+.show-more-reviews {
+    display: block;
+    text-align: center;
+    padding: 0 0 10px;
+    position: relative;
+    top: -8px;
+}
