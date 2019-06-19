@@ -9,12 +9,15 @@
 
 ![pic](kc-sas.jpg)
 
+### 效果预览
+
+![pic](preview-sas.png)
+
 ### Step 0: 前期准备
 
 - 访问 Serverless 应用服务地址
 - 使用账号，密码登陆
 - git clone 本项目到本地
-
 
 ### Step 1-1: 快速发布后端 Java 应用
 
@@ -62,4 +65,3 @@
 
 - 使用脚本模拟高并发情况，访问前端应用服务
 - 查看 Serverless 应用如何进行快速 M-N 计算实例变化
-
