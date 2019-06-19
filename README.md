@@ -13,20 +13,37 @@
 
 ### Step 1: 快速发布后端 Java 应用
 
-Frontend 配置
+- 选择快速创建
+- 选择 Java Runtime
+- 上传代码包 `balance-mng.jar`
+- 入口方法可自动识别
+- 端口：8080
+- 创建完成后，复制保存后端服务的地址
+- 查看后端服务计算实例数量：0
 
-- 监听端口：8080
-- 入口方法：com.demo.alipay.Main::main
-- 环境变量：
-  - BACKEND_URL=bookinfo-backend.sas.alipay.com
-  - LOG_ROOT_PATH=/home/admin/logs (选填)
+### Step 2: 快速发布前端 NodeJS 应用
 
-## Backend 配置
+- 选择创建应用服务
+- 选择技术栈为 NodeJS
+- 上传代码包 `stock-mng.zip`
+- 入口方法可自动识别
+- 运行时选择 `nodejs-0.0.1.1-pre`
+- 端口： 3000
+- 环境变量设置 `BALANCEMNG_URL` 为后端服务的地址
 
-- 监听端口：8080
-- 入口方法：com.demo.alipay.Main::main
-- 环境变量：
-  - DATABASE_URL=your-db-url
-  - DATABASE_USERNAME=your-db-username
-  - DATABASE_PASSWORD=your-db-password
-  - LOG_ROOT_PATH=/home/admin/logs (选填)
+## Step 3: 查看 0-1 冷启能力
+
+- 访问前端服务
+- 查看后端服务的计算实例数量的变化
+
+## Step 4: 配置时间触发器
+
+## Step 5: 日志和监控
+
+- 使用 LogShell 查看应用服务日志
+- 通过计量监控查看使用量
+
+## 讲师介绍：应对高并发的快速 M-N 能力
+
+- 讲师演示在高并发情况下，Serverless 应用如何进行快速 M-N 计算实例变化的能力
+
