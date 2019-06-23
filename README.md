@@ -9,6 +9,9 @@
 
 ![pic](kc-sas.jpg)
 
+### 应用架构图
+![pic](arch.jpg)
+
 ### 效果预览
 
 ![pic](preview-sas.png)
