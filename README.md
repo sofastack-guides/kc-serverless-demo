@@ -16,8 +16,6 @@
 <a name="fxwGD"></a>
 ### Step 0: 前期准备
 
-- 访问 Serverless 应用服务地址 [https://sas.shared.cloud.alipay.com/](https://sas.shared.cloud.alipay.com/) 
-- 使用账号，密码登陆
 - 应用 clone：[https://github.com/sofastack-guides/kc-serverless-demo](https://github.com/sofastack-guides/kc-serverless-demo)
 
 <a name="Wat0u"></a>
@@ -46,7 +44,9 @@
 <a name="75JiI"></a>
 ### Step 1: 查看 Serverless 应用服务
 
-- workspace：workspace0 【00-09】，workspace1【10-19】...workspace9【90-99】
+- 访问 Serverless 应用服务地址 [https://sas.shared.cloud.alipay.com/](https://sas.shared.cloud.alipay.com/) 
+- 使用账号，密码登陆
+- 选择 workspace：workspace0 【00-09】，workspace1【10-19】...workspace9【90-99】
 - 查看前端应用服务：kubecon-frontend-demo-xx【00-99】
 - 查看后端应用服务：kubecon-backend-demo-xx【00-99】
 - **查看目前后端应用的计算实例数量：0**
