@@ -49,7 +49,11 @@
 
 - 访问 Serverless 应用服务地址 [https://sas.shared.cloud.alipay.com/](https://sas.shared.cloud.alipay.com/) 
 - 使用账号，密码登陆
-- 选择 workspace：workspace0 【00-09】，workspace1【10-19】...workspace9【90-99】
+- 选择 workspace：
+  - workspace0【user00-09】
+  - workspace1【user10-19】
+  - ...
+  - workspace9【user90-99】
 - 查看前端应用服务：kubecon-frontend-demo-xx【00-99】
 - 查看后端应用服务：kubecon-backend-demo-xx【00-99】
 - **查看目前后端应用的计算实例数量：0**
@@ -86,7 +90,7 @@
 <a name="Ekbs7"></a>
 ### [](https://github.com/sofastack-guides/kc-serverless-demo#step-2-%E6%9F%A5%E7%9C%8B-0-1-%E5%86%B7%E5%90%AF%E8%83%BD%E5%8A%9B)
 <a name="4iW0b"></a>
-### Step 5: LogShell 和计量
+### Step 5: Log Shell 和计量
 
 - 打开 Log Shell
 - 选择相应的应用服务，并输入日志地址/关键词
