@@ -1,5 +1,7 @@
 # 基于 Serverless 轻松构建云上应用
 
+**注意：使用该指南需要开通蚂蚁金融科技账号，请访问 [蚂蚁金服科技官网](https://tech.antfin.com/)。**
+
 作为云原生技术前进方向之一，Serverless 架构让您进一步提高资源利用率，更专注于业务研发。通过我们的 workshop，您
 可以体验到快速创建 Serveless 应用、根据业务请求秒级 0-1-N 自动伸缩、通过日志查看器快速排错等产品新功能。
 
@@ -127,3 +129,8 @@
 
 - 选择测试执行
 - 触发查看效果
+
+
+## 更多
+
+- [下载本次 Demo 幻灯片](https://gw.alipayobjects.com/os/basement_prod/ce277119-020a-4f59-926d-2331ab7c805b.pdf)
